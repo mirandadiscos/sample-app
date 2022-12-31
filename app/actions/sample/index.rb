@@ -16,7 +16,7 @@ module SampleApp
                        'colected_at' => '2022-12-31 15:37:42.843495682 -0300' }]
 
           response.format = :json
-          response.body = samples.json
+          response.body = samples.to_json
         end
       end
     end
